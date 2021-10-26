@@ -1,0 +1,71 @@
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: rgb(225, 157, 157);
+  font-size: 20px;
+  color: black;
+
+}
+
+h1{
+  font-size: 45px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.name{  
+  size: 300px;
+}
+
+.diva{
+  display: flex;
+  flex-direction: row;
+}
+
+.divb{
+  display: flex;
+  flex-direction: row;
+}
+
+.divc{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.divd{
+  display: flex;
+  flex-direction: row;
+}
+
+.dive{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.divf{
+  margin-left: 80%;
+  
+}
+
+.divg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  size: 30px;
+}
+
+.instructions{
+  font-size: 24px;
+}
+

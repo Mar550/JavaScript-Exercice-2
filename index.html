@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> INSCRIPTION</h1>
+    </header>
+        
+    <div class="diva">
+        <p class="instructions">
+            Nom et Prénom*:
+        </p>
+        <input type="text" id="name" name="name" required
+       minlength="4" maxlength="30" >
+    </div>
+
+    <div class="divb">
+        <p class="instructions">
+            CIN*:
+        </p>
+        <input type="text" id="name" name="cin" required
+       minlength="4" maxlength="30" >
+    </div>
+
+    <div class="divc">
+        <p class="instructions"> 
+            Adresse e-mail*:
+        </p>
+        <input type="text" id="name" name="mail" required
+       minlength="4" maxlength="30" >
+    </div>
+
+    <div class="divd">
+        <p class="instructions">
+            Niveau:
+        </p>
+        <p>
+        <input class="boutons" type="radio" name="q1" value="s">Secondaire
+        <input class="boutons" type="radio" name="q2" value="u">Universitaire
+        <input class="boutons" type="radio" name="q3" value="a">Autre
+        </p>
+    </div>
+    <div class="dive">
+        <p class="instructions">Modules de formation:</p>
+        <p>
+            <form>
+                <select name="nom" size="1">
+                <option selection name="check">Bureautique
+                <option name= "check">SE et Réseaux info.
+                <option name= "check">TIC
+                </select>
+            </form> 
+        </p>
+
+    </div>
+
+    <div class="divf">
+        <p class="instructions"> (*)Champs obligatoires. </p>
+    </div>
+    <div class="divg">
+            <input type="button" class="bouton1" value="Envoyer" >
+            <input type="button" class="bouton2" value="Annuler" >
+    </div>
+
+
+<script src="myscript.js"></script>
+</body>
+</html>
